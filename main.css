@@ -1,0 +1,309 @@
+@import url("https://fonts.cdnfonts.com/css/cavilant");
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#mihas-2024-hero-section {
+  height: auto;
+  background-color: #7a923b;
+  background-image: url(https://www.ifexconnect.com/assets/images/events/landing-page/mihas-2024/element%20-%2010.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#mihas-2024-hero-section #mihas-2024-image {
+  z-index: 2;
+}
+
+#mihas-2024-hero-section #showcased-product-image {
+  margin-right: -100px;
+  margin-bottom: -250px;
+  position: absolute;
+  z-index: 1;
+}
+
+#carousel-section {
+  background-color: #e47a34;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  position: relative;
+  height: 70rem !important;
+  margin-bottom: 100px;
+}
+#carousel-section .swiper {
+  display: flex;
+}
+#carousel-section .content {
+  display: flex;
+}
+#carousel-section .card {
+  width: 25%;
+  position: relative;
+  background: rgba(255, 255, 255, 0);
+  margin: 20px 0;
+  border: none;
+}
+#carousel-section .card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+  padding: 20px 0px;
+}
+#carousel-section .card .card-content .spacer {
+  height: 3px;
+  width: 50px;
+  background-color: #366145;
+}
+#carousel-section .card .card-content .description {
+  color: white !important;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  height: auto !important;
+}
+#carousel-section section .card .image {
+  width: 100%;
+}
+#carousel-section section .card .image img {
+  height: 100%;
+  width: 100%;
+}
+#carousel-section .card .media-icons {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#carousel-section .card .media-icons i {
+  color: #fff;
+  opacity: 0.6;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#carousel-section .card .media-icons i:hover {
+  opacity: 1;
+}
+#carousel-section .card .name-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  height: 250px !important;
+}
+#carousel-section .name-product .name {
+  color: white !important;
+  font-size: 15px;
+  font-weight: 600;
+}
+#carousel-section .name-product .products {
+  color: white !important;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+#carousel-section .swiper-pagination-bullet {
+  height: 7px;
+  width: 26px;
+  border-radius: 25px;
+  background: #7d2ae8;
+  display: none;
+}
+#carousel-section .swiper-button-next,
+#carousel-section .swiper-button-prev {
+  color: orange;
+  font-size: 20px;
+  padding: 10px;
+  transition: all 0.3s ease;
+  border: solid 1px white;
+  background-color: white;
+  width: 3rem;
+  height: 3rem;
+  margin: 0px 25px;
+  margin-top: -250px;
+  position: absolute;
+  z-index: 121;
+}
+
+#carousel-section .swiper-button-next {
+  right: 0;
+}
+#carousel-section .swiper-button-prev {
+  left: 0;
+}
+
+#carousel-section .swiper-button-next:hover,
+#carousel-section .swiper-button-prev:hover {
+  opacity: 1;
+}
+#carousel-section #left-leaves {
+  position: absolute;
+  left: 0;
+  margin-top: -130px;
+}
+#carousel-section #right-leaft {
+  position: absolute;
+  right: 0;
+  margin-top: -130px;
+}
+
+@media (max-width: 481px) {
+  #mihas-2024-hero-section {
+    height: auto;
+    background-size: contain;
+  }
+
+  #mihas-2024-hero-section #showcased-product-image {
+    margin-right: 0px;
+    margin-bottom: 0px !important;
+    position: relative;
+    width: 100%;
+  }
+
+  #mihas-2024-content-section {
+    padding: 20px;
+  }
+
+  #carousel-section {
+    background-color: #e47a34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    position: relative;
+  }
+  #carousel-section .swiper {
+    width: 100%;
+  }
+  #carousel-section .card {
+    position: relative;
+    background: rgba(255, 255, 255, 0);
+    margin: 20px 0;
+    border: none;
+  }
+  #carousel-section .card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    padding: 20px 0px;
+  }
+  #carousel-section .card .card-content .spacer {
+    height: 3px;
+    width: 50px;
+    background-color: white;
+  }
+  #carousel-section .card .card-content .description {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  #carousel-section section .card .image {
+    width: 100%;
+  }
+  #carousel-section section .card .image img {
+    height: 100%;
+    width: 100%;
+  }
+  #carousel-section .card .media-icons {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #carousel-section .card .media-icons i {
+    color: #fff;
+    opacity: 0.6;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  #carousel-section .card .media-icons i:hover {
+    opacity: 1;
+  }
+  #carousel-section .card .name-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+  }
+  #carousel-section .name-product .name {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  #carousel-section .name-product .products {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  #carousel-section .swiper-pagination-bullet {
+    height: 7px;
+    width: 26px;
+    border-radius: 25px;
+    background: #7d2ae8;
+    display: none;
+  }
+  #carousel-section .swiper-button-next,
+  #carousel-section .swiper-button-prev {
+    color: #eeb42e;
+    padding: 10px;
+    transition: all 0.3s ease;
+    border: solid 1px white;
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    margin: 0px 25px;
+    margin-top: -200px;
+  }
+  #carousel-section .swiper-button-next:hover,
+  #carousel-section .swiper-button-prev:hover {
+    opacity: 1;
+  }
+  #carousel-section #left-leaves {
+    position: absolute;
+    left: 0;
+    margin-top: -130px;
+  }
+  #carousel-section #right-leaft {
+    position: absolute;
+    right: 0;
+    margin-top: -130px;
+  }
+} /*# sourceMappingURL=main.css.map */
+
+@media screen and (max-width: 1279px) {
+  #mihas-2024-hero-section {
+    background-size: cover;
+  }
+
+  #mihas-2024-hero-section #showcased-product-image {
+    margin-bottom: -150px;
+  }
+
+  #mihas-2024-content-section .content-text {
+    z-index: 3;
+  }
+
+  #carousel-section .card .name-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: auto !important;
+  }
+}
